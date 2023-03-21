@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style the body */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        /* Header/logo Title */
+        .header { 
+            padding: 80px; text-align: center; 
+            background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293_1280.jpg'); 
+            color: white; 
+            background-size: cover 
+            
+        }
+
+            /* Increase the font size of the heading */
+            .header h1 {
+                font-size: 60px;
+            }
+
+        /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+
+            /* Style the navigation bar links */
+            .navbar a {
+                float: left;
+                display: block;
+                color: yellow;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+
+                /* Right-aligned link */
+                .navbar a.right {
+                    float: right;
+                }
+
+                /* Change color on hover */
+                .navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                /* Active/current link */
+                .navbar a.active {
+                    background-color: #666;
+                    color: white;
+                }
+
+        /* Column container */
+        .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            text-align: center;
+            
+        }
+
+        /* Create two unequal columns that sits next to each other */
+        /* Sidebar/left column */
+        .side {
+            -ms-flex: 30%; /* IE10 */
+            flex: 30%;
+            background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293_1280.jpg');
+            background-size: cover;
+            padding: 20px;
+        }
+
+        /* Main column */
+        .main {
+            -ms-flex: 70%; /* IE10 */
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+            font-size: 25px;
+            line-height: 1.5;
+            background-color: white;
+            text-align:left;
+        }
+
+        /* Fake image, just for this example */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+            
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: white;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 700px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .navbar a {
+                float: none;
+                width: 100%;
+            }
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .ycenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Al-Malaa’ikah (Angels)</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="http://localhost:53977/HomePage.html" class="active">Home</a>
+        <a href="http://localhost:53977/JibrealPage.html">Angel Jibreal</a>
+        <a href="http://localhost:53977/MikaealPage.html">Angel Mikael </a>
+        <a href="http://localhost:53977/AzraelPage.html">Angel Azrael</a>
+        <a href="http://localhost:53977/IsrafilPage.html">Angel Israfil</a>
+        <a href="#" class="right">Link</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2></h2>
+            <h5></h5>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Basmalah-1wm.svg/686px-Basmalah-1wm.svg.png" class="center" />
+            <p></p>
+            
+            <p></p>
+            <iframe width="560" height="395" src="https://www.youtube.com/embed/d77En82EcpI" class="ycenter">
+           
+            </iframe>
+            <h2>
+            Dr Musharraf Hussain, speaks with Dr Jon Hoover about the Islamic belief in angels,
+            God's agents through which He rules the world. The conversation extends to Gabriel,
+            the angel of revelation, and on to the angels of death, the angels Harut, Marut and 
+            the jinn.
+            </h2>
+            <p>
+                
+            </p>
+
+        </div>
+        <div class="main">
+
+            <h1> What are Angles ??</h1>
+            <p>
+                Angels are created of heavenly light. They are elegant beings. Their ranks are constant since they are not exposed to testing. They just obey the heavenly demands. They always have good deeds; they never show disobedience to the commands given. They lack the ability to do evil.
+
+                They are in charge of almost all tasks, material or spiritual. Each being has an angel that is responsible for it. Their ranks change in accordance with the things they do. The greatest of them are Jibril(Gabriel), Mikail (Michael), İsrafil (Israfel) and Azrael. The Sun and similar stars have their own angels and it is told in hadiths that every single drop of rain is carried by an angel.
+
+                There are angels who are always with humans. Some of them write good deeds and sins of people. They are called kiraman katibin (honorable recorders). Even when a person is alone, s/he is not alone actually. S/he is with those angels. A person who feels the existence of those sacred friends through faith will never feel lonely.
+
+                One of the angels related with us is Azrael (the angel of death). It is the only angel that we can see in the world at the time of death. It takes the most precious thing of us, our soul as a trust and carries it to the world of souls. It is a trustworthy being that deserves to be liked not to be afraid of.
+
+                Two angels meet us in the world of grave: Munkar and Nakir. According to an approach munkar and nakir is the name of a kind of angel; two of them are sent to the grave of each person. They ask questions about beliefs and worships. Depending on the answers, the torment or bliss of grave begins. Both of these angels are sacred friends for a person who lived his life in the chamber of faith. They save him/her from the solitude and terror of the grave and make her/him relieved.
+
+                Gabriel (pbuh), who is one of the greatest angels, informs people about the commands and prohibitions of God; gives news. It is a trustworthy messenger.
+
+                Israfil (pbuh) is responsible for the task of giving life again. It applies the demand and will of our Lord about life-giving. It brings about the manifestation of the name Muhyi (life-giving) especially in the months of spring. This angel is also responsible for our resurrection after death.
+
+                Mikail (pbuh) is a great angel that carries out the heavenly commands related with growing and delivering the food and drinks.
+
+                The angels we mentioned here are the leaders of angels performing the same tasks. For example, Israfil (pbuh) is the commander of the angels carrying out the command resurrection. Azrael (pbuh) is the leader of the angels carrying out the command taking life...
+            </p>
+            <img src="https://i.pinimg.com/originals/ab/e5/e5/abe5e5dd6ccb6b60b4d71da182029e50.jpg" alt="Angles and Their Jobs" class="center">
+            
+    <div class="footer">
+        <h2>وَإِذْ قَالَ رَبُّكَ لِلْمَلَائِكَةِ إِنِّي جَاعِلٌ فِي الْأَرْضِ خَلِيفَةً</h2>
+        <h2>
+            And [mention, O Muhammad], when your Lord said to the angels, “Indeed, I will make upon the earth a successive authority.” They said, “Will You place upon it one who causes corruption therein and sheds blood, while we declare Your praise and sanctify You?” Allah said, “Indeed, I know that which you do not know.
+
+            (2:31)
+        </h2>
+    </div>
+            </div>
+        
+</body>
+</html>
